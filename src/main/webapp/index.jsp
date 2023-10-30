@@ -19,7 +19,7 @@
         </div>
 
         <div class="input-box">
-          <label>Email Address you need to fill in</label>
+          <label>Email Address</label>
           <input type="text" placeholder="Enter email address" required />
         </div>
 
