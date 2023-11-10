@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Registration Form in HTML CSS</title>
+    <title>4GL Project</title>
     <!---Custom CSS File--->
     <link rel="stylesheet" href="style.css" />
   </head>
@@ -19,7 +19,7 @@
         </div>
 
         <div class="input-box">
-          <label>Email Address to fill in</label>
+          <label>Email Address to test</label>
           <input type="text" placeholder="Enter email address" required />
         </div>
 
