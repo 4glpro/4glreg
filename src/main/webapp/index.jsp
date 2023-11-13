@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>4GL Project</title>
+    <title><h2>4GL Project</h2></title>
     <!---Custom CSS File--->
     <link rel="stylesheet" href="style.css" />
   </head>
@@ -16,7 +16,7 @@
  document.write("<pre>");	
  
  var today=new Date(); //현재 날짜시간을 이용하여 객체생성
- document.writeln("today : "+today);
+ document.writeln("Today : "+today);
  
  var yy=today.getFullYear();
  var mm=today.getMonth()+1; //0-11리턴.  0은 1월
@@ -58,7 +58,7 @@
         </div>
 
         <div class="input-box">
-          <label>Email Address to test</label>
+          <label>Email Address</label>
           <input type="text" placeholder="Enter email address" required />
         </div>
 
