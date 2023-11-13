@@ -28,7 +28,7 @@
  
  //요일구하기-array이용
  var dArr=["Sun","Mon","Tue","Wed","Thu","Fri","Sat"];
- document.writeln("dArr[d]="+dArr[d]);
+ document.writeln("weekday="+dArr[d]);
  
  /* 요일구하기-switch문이용 */
  var d2;
