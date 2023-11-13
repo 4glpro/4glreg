@@ -27,26 +27,26 @@
  var d=today.getDay();    //0-6.요일 Sunday is 0, Monday is 1
  
  //요일구하기-array이용
- var dArr=["일","월","화","수","목","금","토"];
+ var dArr=["Sun","Mon","Tue","Wed","Thu","Fri","Sat"];
  document.writeln("dArr[d]="+dArr[d]);
  
  /* 요일구하기-switch문이용 */
  var d2;
  switch(d){
- case 0: d2="일";	 break;
- case 1: d2="월";	 break;
- case 2: d2="화";	 break;
- case 3: d2="수"; 	 break;
- case 4: d2="목"; 	 break;
- case 5: d2="금";  break;
- case 6: d2="토";  break;
+ case 0: d2="Sun";	 break;
+ case 1: d2="Mon";	 break;
+ case 2: d2="Tue";	 break;
+ case 3: d2="Wed"; 	 break;
+ case 4: d2="Thu"; 	 break;
+ case 5: d2="Fri";  break;
+ case 6: d2="Sat";  break;
  default:
  } 
 
  
  document.writeln(  yy+"/"+mm+"/"+dd+" "+
 		              hh24+":"+mi+":"+ss+" "+
-		              d2+"요일"+
+		              d2+"Weekday"+
 		              "("+dArr[d]+")");
  
  document.write("</pre>");
