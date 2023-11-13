@@ -16,7 +16,7 @@
  document.write("<pre>");	
  
  var today=new Date(); //현재 날짜시간을 이용하여 객체생성
- document.writeln("today="+today);
+ document.writeln("today : "+today);
  
  var yy=today.getFullYear();
  var mm=today.getMonth()+1; //0-11리턴.  0은 1월
@@ -28,7 +28,7 @@
  
  //요일구하기-array이용
  var dArr=["Sun","Mon","Tue","Wed","Thu","Fri","Sat"];
- document.writeln("weekday="+dArr[d]);
+ document.writeln("Weekday : "+dArr[d]);
  
  /* 요일구하기-switch문이용 */
  var d2;
@@ -46,7 +46,7 @@
  
  document.writeln(  yy+"/"+mm+"/"+dd+" "+
 		              hh24+":"+mi+":"+ss+" "+
-		              d2+"Weekday"+
+		              " Weekday"+
 		              "("+dArr[d]+")");
  
  document.write("</pre>");
