@@ -12,6 +12,45 @@
   <body>
     <section class="container">
       <header>4GL Project</header>
+<script>
+ document.write("<pre>");	
+ 
+ var today=new Date(); //현재 날짜시간을 이용하여 객체생성
+ document.writeln("today="+today);
+ 
+ var yy=today.getFullYear();
+ var mm=today.getMonth()+1; //0-11리턴.  0은 1월
+ var dd=today.getDate();  //1-31리턴
+ var hh24=today.getHours(); //0-23
+ var mi=today.getMinutes();//0-59
+ var ss=today.getSeconds();//0-59
+ var d=today.getDay();    //0-6.요일 Sunday is 0, Monday is 1
+ 
+ //요일구하기-array이용
+ var dArr=["일","월","화","수","목","금","토"];
+ document.writeln("dArr[d]="+dArr[d]);
+ 
+ /* 요일구하기-switch문이용 */
+ var d2;
+ switch(d){
+ case 0: d2="일";	 break;
+ case 1: d2="월";	 break;
+ case 2: d2="화";	 break;
+ case 3: d2="수"; 	 break;
+ case 4: d2="목"; 	 break;
+ case 5: d2="금";  break;
+ case 6: d2="토";  break;
+ default:
+ } 
+
+ 
+ document.writeln(  yy+"/"+mm+"/"+dd+" "+
+		              hh24+":"+mi+":"+ss+" "+
+		              d2+"요일"+
+		              "("+dArr[d]+")");
+ 
+ document.write("</pre>");
+</script>	
       <form action="#" class="form">
         <div class="input-box">
           <label>Full Name</label>
